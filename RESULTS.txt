@@ -1,0 +1,50 @@
+===== RESULTS=====
+1. The detailed results for the above data sets are as below
+CENSUS DATA
+SVM
+Test Accuracy:0.763
+Train Accuracy:0.759
+Confusion matrix -Train:
+24719  0 
+7841   0  
+
+Confusion matrix -Test:
+12434  0 
+3846   0  
+
+NEURAL
+Test Accuracy:0.835
+Train Accuracy:0.820
+Confusion matrix -Train:
+22417  2302 
+3538   4303  
+
+Confusion matrix -Test:
+11442  992 
+1682   2164 
+
+
+KNN
+Test Accuracy:0.849
+Train Accuracy:0.802
+Confusion matrix -Train:
+22032  2687
+3742   4099  
+
+Confusion matrix -Test:
+11449  985
+1469   2377
+
+
+2.BIKE HOURLY RENTAL
+Neural
+Mean Squared Error for test data:42047.96
+Mean Squared Error for train data:50690.19
+
+KNN
+Mean Squared Error for test data:60240.24
+Mean Squared Error for train data:72691.63
+
+Linear Regression
+Mean Squared Error for test data:39685.84
+Mean Squared Error for train data:54911.83
